@@ -1,9 +1,8 @@
 
 fun main() {
-
-    var juan = Persona("juan", 25)
-    var juanito = Empleado("juanitoooo", 64, 1200, 34)
-    var juanillo = Gerente(23.0, false)
+    val juan = Persona("juan", 25)
+    val juanito = Empleado("juanito", 64, 1200.0, 12.0)
+    val juanillo = Gerente("juanillo",25,12000.0,123.0, true)
     println(juan.celebraCumple())
     println(juan.celebraCumple())
     println(juanito.calcularSalario())
